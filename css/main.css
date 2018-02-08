@@ -1,0 +1,44 @@
+* {
+  color: black;
+}
+
+p {
+  color: red;
+}
+
+body {
+  display: flex;
+  justify-content: space-between;
+}
+
+aside {
+  background-color: #4f4f4f;
+
+}
+
+aside * {
+  color: white;
+
+}
+
+aside h2 {
+  text-transform: uppercase;
+}
+
+#profile-pic img {
+  height: 10em;
+  width: 10em;
+  border-radius: 50%;
+}
+
+/*--------------------------MAIN---------------------*/
+
+main {
+  background-color: #6d6c6c;
+}
+
+main h2:first-child {
+  color: white;
+}
+
+/*-------------------------LAYOUT----------------------*/
